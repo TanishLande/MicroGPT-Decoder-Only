@@ -2,7 +2,7 @@
 
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
   <img src="assets/encoder-decoder-block.png" alt="Image One" width="400" height="500" style="object-fit: cover;"/>
-  <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <div align="center" style="display: block; align-items: center; justify-content: center; gap: 20px;">
     <span style="font-size: 30px;">➡️</span>
      <span style="font-size: 30px;">➡️</span>
      <span style="font-size: 30px;">➡️</span>
