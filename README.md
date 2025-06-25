@@ -1,19 +1,11 @@
 # Decoder-Only Block LLM
 
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 40px 0; padding: 20px; flex-wrap: nowrap;">
-  <div style="text-align: center; flex-shrink: 0;">
-    <img src="assets/encoder-decoder-block.png" alt="Encoder-Decoder Architecture" width="350" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-    <p style="margin-top: 10px; font-weight: bold; color: #333; margin-bottom: 0;">Encoder-Decoder Model</p>
-  </div>
-  
-
-    <span style="font-size: 24px; color: #2196F3;">➡️</span>
-  
-  <div style="text-align: center; flex-shrink: 0;">
-    <img src="assets/decoder-only-block.png" alt="Decoder-Only Architecture" width="400" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-    <p style="margin-top: 10px; font-weight: bold; color: #333; margin-bottom: 0;">Decoder-Only Model</p>
-  </div>
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <img src="assets/encoder-decoder-block.png" alt="Image One" width="200" height="150" style="object-fit: cover;"/>
+  <span style="font-size: 30px;">➡️</span>
+  <img src="assets/decoder-only-block.png" alt="Image Two" width="200" height="150" style="object-fit: cover;"/>
 </div>
+
 
 ## Introduction
 
