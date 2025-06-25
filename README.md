@@ -1,20 +1,20 @@
 # Decoder-Only Block LLM
 
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 40px 0; padding: 20px;">
-  <div style="text-align: center;">
-    <img src="assets/encoder-decoder-block.png" alt="Encoder-Decoder Architecture" width="350" height="200" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-    <p style="margin-top: 10px; font-weight: bold; color: #333;">Encoder-Decoder Model</p>
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 40px 0; padding: 20px; flex-wrap: nowrap;">
+  <div style="text-align: center; flex-shrink: 0;">
+    <img src="assets/encoder-decoder-block.png" alt="Encoder-Decoder Architecture" width="350" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    <p style="margin-top: 10px; font-weight: bold; color: #333; margin-bottom: 0;">Encoder-Decoder Model</p>
   </div>
   
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 5px;">
+  <div style="display: flex; align-items: center; gap: 5px; flex-shrink: 0;">
     <span style="font-size: 24px; color: #2196F3;">🔄</span>
-    <span style="font-size: 14px; font-weight: 600; color: #666;">TRANSFORMS TO</span>
+    <span style="font-size: 14px; font-weight: 600; color: #666; white-space: nowrap;">TRANSFORMS TO</span>
     <span style="font-size: 24px; color: #2196F3;">➡️</span>
   </div>
   
-  <div style="text-align: center;">
-    <img src="assets/decoder-only-block.png" alt="Decoder-Only Architecture" width="200" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-    <p style="margin-top: 10px; font-weight: bold; color: #333;">Decoder-Only Model</p>
+  <div style="text-align: center; flex-shrink: 0;">
+    <img src="assets/decoder-only-block.png" alt="Decoder-Only Architecture" width="400" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    <p style="margin-top: 10px; font-weight: bold; color: #333; margin-bottom: 0;">Decoder-Only Model</p>
   </div>
 </div>
 
