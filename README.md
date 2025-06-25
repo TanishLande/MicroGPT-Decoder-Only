@@ -18,6 +18,15 @@ In this code, we are only generating tokens, not taking input from user. We are 
 
 ## Building a Decoder Block
 
+### Prerequisites
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+
 ### Step 1: Tokenization
 
 Take the sentence and tokenize it. We have multiple libraries which do this subword, but we will do it this way as computers do not understand English.
