@@ -6,7 +6,6 @@
   <img src="assets/decoder-only-block.png" alt="Image Two" width="400" height="400" style="object-fit: cover;"/>
 </div>
 
-
 ## Introduction
 
 We will be making a decoder-only block to understand this better. Let us first understand what encoder and decoder are:
@@ -134,3 +133,16 @@ We tell the model to print 500 tokens which would sound like Shakespeare:
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
 print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
 ```
+
+---
+
+## 📝 Important Note
+
+> **🔴 Red Parts in Transformer Architecture**: All the red colored parts shown in the transformer architecture diagram are components that we **did not implement** in this decoder-only model. These typically include:
+> - Cross-attention layers
+> - Encoder stack components  
+> - Encoder-decoder attention mechanisms
+> 
+> Our implementation focuses **only on the decoder stack** with self-attention, which is sufficient for autoregressive text generation tasks like our Shakespeare model.
+
+---
