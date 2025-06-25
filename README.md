@@ -2,7 +2,11 @@
 
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
   <img src="assets/encoder-decoder-block.png" alt="Image One" width="400" height="500" style="object-fit: cover;"/>
-  <span style="font-size: 30px;">➡️</span>
+  <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+    <span style="font-size: 30px;">➡️</span>
+     <span style="font-size: 30px;">➡️</span>
+     <span style="font-size: 30px;">➡️</span>
+  </div>
   <img src="assets/decoder-only-block.png" alt="Image Two" width="500" height="500" style="object-fit: cover;"/>
 </div>
 
