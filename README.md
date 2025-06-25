@@ -2,7 +2,7 @@
 
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 40px 0; padding: 20px;">
   <div style="text-align: center;">
-    <img src="assets/encoder-decoder-block.png" alt="Encoder-Decoder Architecture" width="350" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    <img src="assets/encoder-decoder-block.png" alt="Encoder-Decoder Architecture" width="350" height="300" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     <p style="margin-top: 10px; font-weight: bold; color: #333;">Encoder-Decoder Model</p>
   </div>
   
@@ -13,7 +13,7 @@
   </div>
   
   <div style="text-align: center;">
-    <img src="assets/decoder-only-block.png" alt="Decoder-Only Architecture" width="400" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    <img src="assets/decoder-only-block.png" alt="Decoder-Only Architecture" width="300" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
     <p style="margin-top: 10px; font-weight: bold; color: #333;">Decoder-Only Model</p>
   </div>
 </div>
