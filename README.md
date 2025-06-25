@@ -146,3 +146,14 @@ print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
 > Our implementation focuses **only on the decoder stack** with self-attention, which is sufficient for autoregressive text generation tasks like our Shakespeare model.
 
 ---
+
+
+## ⚡ Performance & Hardware Requirements
+
+> **💻 Recommended Setup**: This model requires significant computational resources for training. For optimal performance:
+> - **Use on-demand GPU instances** (AWS EC2, Google Colab Pro, or similar cloud platforms)
+> - **Alternative**: Jupyter Notebook with GPU support, but expect longer training times due to the model size
+> - **Local CPU training**: Not recommended - will take considerably longer and may not be practical
+
+---
+
