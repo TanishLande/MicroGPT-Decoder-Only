@@ -6,11 +6,8 @@
     <p style="margin-top: 10px; font-weight: bold; color: #333; margin-bottom: 0;">Encoder-Decoder Model</p>
   </div>
   
-  <div style="display: flex; align-items: center; gap: 5px; flex-shrink: 0;">
-    <span style="font-size: 24px; color: #2196F3;">🔄</span>
-    <span style="font-size: 14px; font-weight: 600; color: #666; white-space: nowrap;">TRANSFORMS TO</span>
+
     <span style="font-size: 24px; color: #2196F3;">➡️</span>
-  </div>
   
   <div style="text-align: center; flex-shrink: 0;">
     <img src="assets/decoder-only-block.png" alt="Decoder-Only Architecture" width="400" height="400" style="object-fit: contain; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
