@@ -1,5 +1,10 @@
 # Decoder-Only Block LLM
 
+![Image One](assets/encoder-decoder-block.png)
+## ➡️ 
+![Image Two](assets/decoder-only-block.png)
+
+
 ## Introduction
 
 We will be making a decoder-only block to understand this better. Let us first understand what encoder and decoder are:
