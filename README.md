@@ -6,6 +6,17 @@
   <img src="assets/decoder-only-block.png" alt="Image Two" width="300" height="250" style="object-fit: cover;"/>
 </div>
 
+## 📝 Important Note
+
+> **🔴 Red Parts in Transformer Architecture**: All the red colored parts shown in the transformer architecture diagram are components that we **did not implement** in this decoder-only model. These typically include:
+> - Cross-attention layers
+> - Encoder stack components  
+> - Encoder-decoder attention mechanisms
+> 
+> Our implementation focuses **only on the decoder stack** with self-attention, which is sufficient for autoregressive text generation tasks like our Shakespeare model.
+
+---
+
 ## Introduction
 
 We will be making a decoder-only block to understand this better. Let us first understand what encoder and decoder are:
@@ -15,6 +26,13 @@ We will be making a decoder-only block to understand this better. Let us first u
 **Decoder**: Takes these encoder understandings and continues generating more tokens.
 
 In this code, we are only generating tokens, not taking input from user. We are training the model on a Shakespeare document and making our model speak like Shakespeare.
+
+
+### 📚 Reference Paper
+This implementation is based on the groundbreaking **"Attention Is All You Need"** paper:
+- **Paper**: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017)
+- **Key Innovation**: Introduced the Transformer architecture that revolutionized NLP
+
 
 ## Building a Decoder Block
 
@@ -144,18 +162,6 @@ print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
 ```
 
 ---
-
-## 📝 Important Note
-
-> **🔴 Red Parts in Transformer Architecture**: All the red colored parts shown in the transformer architecture diagram are components that we **did not implement** in this decoder-only model. These typically include:
-> - Cross-attention layers
-> - Encoder stack components  
-> - Encoder-decoder attention mechanisms
-> 
-> Our implementation focuses **only on the decoder stack** with self-attention, which is sufficient for autoregressive text generation tasks like our Shakespeare model.
-
----
-
 
 ## ⚡ Performance & Hardware Requirements
 
