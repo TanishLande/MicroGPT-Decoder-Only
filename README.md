@@ -31,7 +31,7 @@ In this code, we are only generating tokens, not taking input from user. We are 
 ### 📚 Reference Paper
 This implementation is based on the groundbreaking **"Attention Is All You Need"** paper:
 - **Paper**: [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017)
-- **Key Innovation**: Introduced the Transformer architecture that revolutionized NLP
+- **Key Innovation**: Introduced to attention which solve the older problem of RNN and convo layer
 
 
 ## Building a Decoder Block
